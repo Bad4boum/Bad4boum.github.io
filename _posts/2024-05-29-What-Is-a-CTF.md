@@ -5,13 +5,13 @@ categories: [CATEGORIES]
 tags: [CTF]     # TAG names should always be lowercase
 ---
 
-# :notebook_with_decorative_cover: - CTF Writeups
+# 📔 - CTF Writeups
 
 This repository is dedicated to documenting and analyzing challenges encountered in various Capture The Flag (CTF) competitions. Writeups are documents that detail the steps taken to solve a specific challenge, including techniques used, tools, tips, and final solutions.
 
 <br>
 
-## :interrobang: - What is a CTF ?
+## ⁉️ - What is a CTF ?
 
 According to Wikipedia, 
 
