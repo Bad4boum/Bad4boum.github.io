@@ -1,11 +1,11 @@
 ---
-title: "What is a CTF ?"
+title: "Welcome !"
 date: 2024-05-29 12:00:00 +/-0530
-categories: [CATEGORIES]
+categories: []
 tags: [CTF]     # TAG names should always be lowercase
 ---
 
-# What is a CTF ?
+## What is a CTF ?
 
 According to Wikipedia, 
 
