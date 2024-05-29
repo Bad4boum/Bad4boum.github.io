@@ -19,7 +19,7 @@ The box is available [here](https://app.hackthebox.com/machines/Pandora) if you 
 Pandora is a nice box for beginner and interesting to learn new tools.
 
 ## Foothold
-### Scanning The Box :
+### Scanning The Box 
 So first, we gonna scan the IP adress with the popular tool **Nmap** with the command :
 ```markdown
 nmap 10.10.11.136 -sC -sV -p-
@@ -65,7 +65,7 @@ Now, we have a new port, a UDP-port :
 ```
 SNMP is short of *Simple Network Management Protocol*. The explaination can be find [here](https://www.manageengine.com/fr/network-monitoring/what-is-snmp.html)
 
-### Interaction with the SNMP server : 
+### Interaction with the SNMP server  
 Here we use *snmp-check*, a tool already installed in Kali-linux.
 The syntax is simple: 
 ```markdown
