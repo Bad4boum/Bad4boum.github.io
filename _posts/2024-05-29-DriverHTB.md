@@ -1,12 +1,13 @@
 ---
 title: "HackTheBox - Driver"
-date: 2024-05-29 12:00:00 +/-0530
+date: 2023-05-29 12:00:00 +/-0530
 categories: [HackTheBox]
 tags: [CTF, HTB]     # TAG names should always be lowercase
 ---
 
-# Driver Write-Up
-Hi everyone, let's start to h4ck ! *(Written in 2023)*
+![LOGO DRIVER](../assets/img/Driver/Driver.png)
+
+
 ## Description
 The box is available [here](https://app.hackthebox.com/machines/387) if you want to try it before read this.
 
