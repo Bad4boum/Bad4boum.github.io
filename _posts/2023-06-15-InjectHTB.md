@@ -1,6 +1,6 @@
 ---
 title: "HackTheBox - Inject"
-date: 2023-05-28 12:00:00 +/-0530
+date: 2023-06-15 12:00:00 +/-0530
 categories: [HackTheBox]
 tags: [CTF, HTB]     # TAG names should always be lowercase
 ---
