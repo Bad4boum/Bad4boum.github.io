@@ -5,13 +5,7 @@ categories: [CATEGORIES]
 tags: [CTF]     # TAG names should always be lowercase
 ---
 
-# 📔 - CTF Writeups
-
-This repository is dedicated to documenting and analyzing challenges encountered in various Capture The Flag (CTF) competitions. Writeups are documents that detail the steps taken to solve a specific challenge, including techniques used, tools, tips, and final solutions.
-
-<br>
-
-## ⁉️ - What is a CTF ?
+# What is a CTF ?
 
 According to Wikipedia, 
 
@@ -21,18 +15,18 @@ A CTF, or Capture The Flag, is a cybersecurity competition (or not) where partic
 
 <br>
 
-## :file_folder: - Repository Structure
+## Website Structure
 
-This repository is organized to group Writeups by platform. You'll find the following sub-directories :
+This website is organized to group Writeups by platform. You'll find the following categories :
 
 - **HackTheBox**
 - **OverTheWire**
-- **TryHackMe** *(soon)*
+- **TryHackMe**
 - *Coming soon ...*
 
 <br>
 
-## :video_game: - How to play ?
+## How to play ?
 
 If you're new to CTFs and want to get started, here are some platforms where you can play and practice :
 
@@ -41,5 +35,5 @@ If you're new to CTFs and want to get started, here are some platforms where you
 - [OverTheWire](https://overthewire.org/): Progressive level cybersecurity challenges for learning and practicing.
 - [CTF Time](https://ctftime.org/): Platform for tracking CTF competitions.
 
-:white_check_mark: You can play in solo, duo or more ! 
+You can play in solo, duo or more ! 
 <br>
