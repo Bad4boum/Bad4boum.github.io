@@ -5,6 +5,10 @@ categories: []
 tags: [CTF]     # TAG names should always be lowercase
 ---
 
+Passionate about information security, I created this space to share detailed writeups of various Capture The Flag (CTF). Whether you're a curious beginner or a seasoned expert, you'll find resources and explanations here to help you enhance your skills and understand the nuances of ethical hacking.
+
+<br>
+
 ## What is a CTF ?
 
 According to Wikipedia, 
