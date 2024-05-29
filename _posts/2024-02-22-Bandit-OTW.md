@@ -8,46 +8,22 @@ tags: [OTW]     # TAG names should always be lowercase
 ![OverTheWire](https://overthewire.org/img/domokitten.png)
 
 
-## :scroll: Description 
+## Description 
 
 > The Bandit wargame is aimed at absolute beginners. It will teach the basics needed to be able to play other wargames. **If you notice something essential is missing or have ideas for new levels, please let us know!**
 
-:point_right: Play [here](https://overthewire.org/wargames/bandit/) ! :point_left:
-
-
-
-<br>
-  
-
-## :page_with_curl: Summary :  
-
-- Level 0-10 : &nbsp; [Level 0](#star2-level-0) | [Level 1](#star2-level-1) | [Level 2](#star2-level-2) | [Level 3](#star2-level-3) | [Level 4](#star2-level-4) | [Level 5](#star2-level-5) | [Level 6](#star2-level-6) | [Level 7](#star2-level-7) | [Level 8](#star2-level-8) | [Level 9](#star2-level-9) | [Level 10](#star2-level-10)
-
-<br>
-  
-- Level 11-20 : [Level 11](#star2-star2-level-11) | [Level 12](#star2-star2-level-12) | [Level 13](#star2-star2-level-13) | [Level 14](#star2-star2-level-14) | [Level 15](#star2-star2-level-15) | [Level 16](#star2-star2-level-16) | [Level 17](#star2-star2-level-17) | [Level 18](#star2-star2-level-18) | [Level 19](#star2-star2-level-19) | [Level 20](#star2-star2-level-20)
-  
-<br>
-  
-- Level 21-30 : [Level 21](#star2-star2-star2-level-21) | [Level 22](#star2-star2-star2-level-22) | [Level 23](#star2-star2-star2-level-23) | [Level 24](#star2-star2-star2-level-24) | [Level 25](#star2-star2-star2-level-25) | [Level 26](#star2-star2-star2-level-26) | [Level 27](#star2-star2-star2-level-27) | [Level 28](#star2-star2-star2-level-28) | [Level 29](#star2-star2-star2-level-29) | [Level 30](#star2-star2-star2-level-30)
-  
-<br>
-  
-- Level 31-34 : [Level 31](#star2-star2-star2-level-31) | [Level 32](#star2-star2-star2-level-32) | [Level 33](#star2-star2-star2-level-33)
-
-
-<br>
+Play [here](https://overthewire.org/wargames/bandit/) !
   
 
 
-## :star2: Level 0
+## Level 0
 
 
 >The goal of this level is for you to log into the game using SSH. The host to which you need to connect is **bandit.labs.overthewire.org**, on port 2220. The username is **bandit0** and the password is **bandit0**. Once logged in, go to the [Level 1](https://overthewire.org/wargames/bandit/bandit1.html) page to find out how to beat Level 1.
 
 <br>
 
-:closed_lock_with_key: Connect to **bandit.labs.overthewire.org** on port 2220 with *ssh* : 
+Connect to **bandit.labs.overthewire.org** on port 2220 with *ssh* : 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
@@ -58,7 +34,7 @@ Password : ``bandit0``
 
 <br>
 
-## :star2: Level 1
+## Level 1
 
 >The password for the next level is stored in a file called **readme** located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 
@@ -72,7 +48,7 @@ bandit0@bandit:~$
 ```
 <br>
 
-:closed_lock_with_key: Connect with `bandit1` user and password found.
+Connect with `bandit1` user and password found.
 
 ```bash
 ssh bandit1@bandit.labs.overthewire.org -p 2220
@@ -84,7 +60,7 @@ Password  : ``NH2SXQw--------HMM9H66vVXjL``
 
 <br>
 
-## :star2: Level 2
+## Level 2
 
 >The password for the next level is stored in a file called **-** located in the home directory
 
@@ -99,7 +75,7 @@ bandit1@bandit:~$
 
 <br>
 
-:closed_lock_with_key: Connect with ``bandit2`` user and password found.
+Connect with ``bandit2`` user and password found.
 
 ```bash
 ssh bandit2@bandit.labs.overthewire.org -p 2220
