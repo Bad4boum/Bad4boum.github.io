@@ -7,7 +7,7 @@ tags: [CTF, HMV]     # TAG names should always be lowercase
 
 
 
-![logo](../assets/img/Vinylizer/vinylizer.png)
+![logo](../assets/img/Vinylizer/Vinylizer.png)
 
 
 ## Description 
