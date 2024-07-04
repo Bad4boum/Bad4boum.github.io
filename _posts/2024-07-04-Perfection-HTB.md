@@ -106,6 +106,7 @@ Let's try with **BurpSuite** :
 ![](../assets/img/Perfection/brup1.png)
 
 But we have the following response :
+
 ![](../assets/img/Perfection/blocked.png)
 
 I tried all type of char like `&;{}-"=`. Nothing.
@@ -194,15 +195,10 @@ Go on ``/var/mail``. There is a mail for *susan* :
 
 ```txt
 Due to our transition to Jupiter Grades because of the PupilPath data breach, I thought we should also migrate our credentials ('our' including the other students
-
 in our class) to the new platform. I also suggest a new password specification, to make things easier for everyone. The password format is:
-
 {firstname}_{firstname backwards}_{randomly generated integer between 1 and 1,000,000,000}
-
 Note that all letters of the first name should be convered into lowercase.
-
 Please hit me with updates on the migration when you can. I am currently registering our university with the platform.
-
 - Tina, your delightful student
 ```
 
