@@ -25,7 +25,7 @@ For the privilege escalation part, there is a **misconfiguration** on the passwo
 
 ## Enumeration
 
-Let's start ! 
+
 ### Scanning
 
 Let's start with a scan. We'll use **RustScan** with following options : 
