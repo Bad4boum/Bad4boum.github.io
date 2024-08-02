@@ -157,7 +157,7 @@ And the output is :
 
 Now, when we try to input other things like ``Hello Wolrd !`` instead of the links : 
 
-![Hello Wolrd !](.../assets/img/IClean/Hello.png)
+![Hello Wolrd !](../assets/img/IClean/Hello.png)
 
 The QR is not shown. Check the source code with ``CTRL + u`` : 
 
